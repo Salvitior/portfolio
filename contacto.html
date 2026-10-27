@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<!-- Salva Carbonell Rosales · 27/10/2026 -->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto · Salva Carbonell Rosales</title>
+</head>
+<body>
+
+    <a href="#contenido">Saltar al contenido</a>
+
+    <header>
+        <nav aria-label="Menú principal">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="entorno.html">Mi entorno de trabajo</a></li>
+                <li><a href="sobre-mi.html">Sobre mí</a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>
+                <li><a href="cv.html">CV</a></li>
+                <li><a href="contacto.html" aria-current="page">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <h1>Contacto</h1>
+    </header>
+
+    <main id="contenido">
+
+        <section aria-labelledby="formulario-titulo">
+            <h2 id="formulario-titulo">Escríbeme un mensaje</h2>
+
+            <p>Los campos con asterisco (*) son obligatorios.</p>
+
+            <form action="mailto:scrsocelpedra@gmail.com" method="post" enctype="text/plain">
+
+                <fieldset>
+                    <legend>Tus datos</legend>
+
+                    <p>
+                        <label for="nombre">Nombre *</label><br>
+                        <input type="text" id="nombre" name="nombre" required minlength="2" maxlength="80" autocomplete="name">
+                    </p>
+
+                    <p>
+                        <label for="correo">Correo electrónico *</label><br>
+                        <input type="email" id="correo" name="correo" required autocomplete="email">
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Tu mensaje</legend>
+
+                    <p>
+                        <label for="motivo">Motivo del mensaje *</label><br>
+                        <select id="motivo" name="motivo" required>
+                            <option value="">Elige un motivo</option>
+                            <option value="proyecto">Quiero proponerte un proyecto</option>
+                            <option value="colaboracion">Quiero colaborar contigo</option>
+                            <option value="pregunta">Tengo una pregunta sobre tu portfolio</option>
+                            <option value="otro">Otro motivo</option>
+                        </select>
+                    </p>
+
+                    <fieldset>
+                        <legend>¿Cómo me has conocido? *</legend>
+
+                        <p>
+                            <input type="radio" id="conocido-github" name="conocido" value="github" required>
+                            <label for="conocido-github">Por GitHub</label>
+                        </p>
+                        <p>
+                            <input type="radio" id="conocido-clase" name="conocido" value="clase">
+                            <label for="conocido-clase">Por clase o por el centro de estudios</label>
+                        </p>
+                        <p>
+                            <input type="radio" id="conocido-amigos" name="conocido" value="conocidos">
+                            <label for="conocido-amigos">Por amigos o conocidos</label>
+                        </p>
+                        <p>
+                            <input type="radio" id="conocido-otro" name="conocido" value="otro">
+                            <label for="conocido-otro">De otra forma</label>
+                        </p>
+                    </fieldset>
+
+                    <p>
+                        <label for="mensaje">Mensaje * (máximo 500 caracteres)</label><br>
+                        <textarea id="mensaje" name="mensaje" rows="6" cols="40" required minlength="10" maxlength="500"></textarea>
+                    </p>
+                </fieldset>
+
+                <p>
+                    <input type="checkbox" id="privacidad" name="privacidad" value="acepto" required>
+                    <label for="privacidad">He leído y acepto que mis datos se usen solo para responder a este mensaje. *</label>
+                </p>
+
+                <p>
+                    <button type="submit">Enviar mensaje</button>
+                    <button type="reset">Borrar el formulario</button>
+                </p>
+            </form>
+        </section>
+
+        <section aria-labelledby="alternativa-titulo">
+            <h2 id="alternativa-titulo">Otras formas de contactar</h2>
+
+            <ul>
+                <li>
+                    Si prefieres no usar el formulario,
+                    <a href="mailto:scrsocelpedra@gmail.com">escríbeme directamente un correo electrónico</a>.
+                </li>
+                <li>
+                    <a href="https://github.com/Salvitior" target="_blank" rel="noopener noreferrer">Mi perfil de GitHub, con mi código (se abre en una pestaña nueva)</a>
+                </li>
+            </ul>
+        </section>
+
+        <section aria-labelledby="mapa-titulo">
+            <h2 id="mapa-titulo">Mi ciudad</h2>
+
+            <p>Este mapa muestra el centro de Alzira (Valencia), mi ciudad.</p>
+
+            <iframe title="Mapa de Alzira, Valencia, en OpenStreetMap"
+                    width="600" height="350"
+                    loading="lazy"
+                    src="https://www.openstreetmap.org/export/embed.html?bbox=-0.4600%2C39.1350%2C-0.4100%2C39.1700&amp;layer=mapnik&amp;marker=39.1517%2C-0.4351"></iframe>
+
+            <p>
+                <a href="https://www.openstreetmap.org/?mlat=39.1517&amp;mlon=-0.4351#map=14/39.1517/-0.4351" target="_blank" rel="noopener noreferrer">Ver el mapa más grande en OpenStreetMap (se abre en una pestaña nueva)</a>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            &copy; 2026 Salva Carbonell Rosales ·
+            <a href="https://github.com/Salvitior" target="_blank" rel="noopener noreferrer">Perfil de Salva en GitHub (se abre en una pestaña nueva)</a>
+        </p>
+    </footer>
+
+</body>
+</html>
