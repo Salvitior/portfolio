@@ -8,6 +8,8 @@
 </head>
 <body>
 
+    <a href="#contenido">Saltar al contenido</a>
+
     <header>
         <nav aria-label="Menú principal">
             <ul>
@@ -21,68 +23,72 @@
         <h1>Proyectos</h1>
     </header>
 
-    <main>
+    <main id="contenido">
 
-        <p>
-            Estas son cuatro de las páginas que he hecho en el curso de Lenguajes de
-            Marcas, con una captura de cada una y lo que aprendí al hacerla.
-        </p>
+        <section aria-labelledby="curso-titulo">
+            <h2 id="curso-titulo">Mis proyectos del curso</h2>
 
-        <figure>
-            <img src="img/proyectos/practica-1-primera-pagina.png"
-                 alt="Captura de mi primera página web: sobre fondo blanco, el título «Salva Carbonell» en letra grande, una frase sobre lo aprendido de HTML y debajo un enlace azul con el texto «Google»."
-                 width="800" height="500">
-            <figcaption>
-                <strong>Práctica 1 · Mi primera página.</strong>
-                Aprendí la estructura mínima de un documento HTML (cabecera y cuerpo),
-                a poner un título, un párrafo y un enlace, y a organizar los archivos
-                de un proyecto en carpetas.
-            </figcaption>
-        </figure>
+            <p>
+                Estas son cuatro de las páginas que he hecho en el curso de Lenguajes de
+                Marcas, con una captura de cada una y lo que aprendí al hacerla.
+            </p>
 
-        <figure>
-            <img src="img/proyectos/actividad-4-ficha-personal.png"
-                 alt="Captura de mi ficha personal: el título «Salva Carbonell Rosales», el apartado «Sobre mí» con dos párrafos con palabras en negrita y cursiva, una lista con viñetas en «Qué sé hacer» y el comienzo de una lista numerada en «Qué quiero aprender»."
-                 width="800" height="500">
-            <figcaption>
-                <strong>Actividad 4 · Ficha personal.</strong>
-                Aprendí a estructurar un texto con encabezados, párrafos, listas
-                ordenadas y no ordenadas, y a destacar palabras con negrita y cursiva.
-            </figcaption>
-        </figure>
-
-        <figure>
-            <img src="img/proyectos/actividad-5-entorno-de-trabajo.png"
-                 alt="Captura de la página «Mi entorno de trabajo»: un título, un apartado que explica cómo el navegador usa DNS y HTTP para cargar una página, una lista con las herramientas Visual Studio Code, Live Server, Git, GitHub y extensiones, y el inicio del apartado sobre la estructura de carpetas."
-                 width="800" height="500">
-            <figcaption>
-                <svg width="20" height="20" viewBox="0 0 24 24" role="img" aria-label="Proyecto del que estoy más orgulloso">
-                    <title>Proyecto del que estoy más orgulloso</title>
-                    <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26" fill="#f5b301" stroke="#b07d00" stroke-width="1"/>
-                </svg>
-                <strong>Actividad 5 · Mi entorno de trabajo.</strong>
-                Aprendí cómo llega una página desde el servidor hasta mi navegador
-                (DNS y HTTP/HTTPS), para qué sirve cada herramienta que uso y cómo
-                organizar las carpetas de mi portfolio.
-            </figcaption>
-        </figure>
-
-        <figure>
-            <img src="img/proyectos/actividad-6-sobre-mi.png"
-                 alt="Captura de la página «Sobre mí»: arriba el menú de navegación con cuatro enlaces, el título «Sobre mí», un índice con tres enlaces a las secciones y el apartado «Trayectoria» con dos párrafos y un enlace «Volver arriba»."
-                 width="800" height="500">
-            <figcaption>
-                <strong>Actividad 6 · Sobre mí y menú de navegación.</strong>
-                Aprendí a conectar varias páginas con un menú, a enlazar secciones
-                concretas con anclas, y a usar enlaces externos seguros, de correo y
-                de descarga.
-            </figcaption>
-        </figure>
-
+            <article>
+                <h3>Práctica 1 · Mi primera página</h3>
+                <figure>
+                    <img src="img/proyectos/practica-1-primera-pagina.png"
+                         alt="Captura de mi primera página web: sobre fondo blanco, el título «Salva Carbonell» en letra grande, una frase sobre lo aprendido de HTML y debajo un enlace azul con el texto «Google»."
+                         width="800" height="500">
+                    <figcaption>
+                        Aprendí la estructura mínima de un documento HTML (cabecera y cuerpo), a poner un título, un párrafo y un enlace, y a organizar los archivos de un proyecto en carpetas.
+                    </figcaption>
+                </figure>
+            </article>
+            <article>
+                <h3>Actividad 4 · Ficha personal</h3>
+                <figure>
+                    <img src="img/proyectos/actividad-4-ficha-personal.png"
+                         alt="Captura de mi ficha personal: el título «Salva Carbonell Rosales», el apartado «Sobre mí» con dos párrafos con palabras en negrita y cursiva, una lista con viñetas en «Qué sé hacer» y el comienzo de una lista numerada en «Qué quiero aprender»."
+                         width="800" height="500">
+                    <figcaption>
+                        Aprendí a estructurar un texto con encabezados, párrafos, listas ordenadas y no ordenadas, y a destacar palabras con negrita y cursiva.
+                    </figcaption>
+                </figure>
+            </article>
+            <article>
+                <h3>Actividad 5 · Mi entorno de trabajo</h3>
+                <figure>
+                    <img src="img/proyectos/actividad-5-entorno-de-trabajo.png"
+                         alt="Captura de la página «Mi entorno de trabajo»: un título, un apartado que explica cómo el navegador usa DNS y HTTP para cargar una página, una lista con las herramientas Visual Studio Code, Live Server, Git, GitHub y extensiones, y el inicio del apartado sobre la estructura de carpetas."
+                         width="800" height="500">
+                    <figcaption>
+                    <svg width="20" height="20" viewBox="0 0 24 24" role="img" aria-label="Proyecto del que estoy más orgulloso">
+                        <title>Proyecto del que estoy más orgulloso</title>
+                        <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26" fill="#f5b301" stroke="#b07d00" stroke-width="1"/>
+                    </svg>
+                        Aprendí cómo llega una página desde el servidor hasta mi navegador (DNS y HTTP/HTTPS), para qué sirve cada herramienta que uso y cómo organizar las carpetas de mi portfolio.
+                    </figcaption>
+                </figure>
+            </article>
+            <article>
+                <h3>Actividad 6 · Sobre mí y menú de navegación</h3>
+                <figure>
+                    <img src="img/proyectos/actividad-6-sobre-mi.png"
+                         alt="Captura de la página «Sobre mí»: arriba el menú de navegación con cuatro enlaces, el título «Sobre mí», un índice con tres enlaces a las secciones y el apartado «Trayectoria» con dos párrafos y un enlace «Volver arriba»."
+                         width="800" height="500">
+                    <figcaption>
+                        Aprendí a conectar varias páginas con un menú, a enlazar secciones concretas con anclas, y a usar enlaces externos seguros, de correo y de descarga.
+                    </figcaption>
+                </figure>
+            </article>
+        </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 Salva Carbonell Rosales.</p>
+        <p>
+            &copy; 2026 Salva Carbonell Rosales ·
+            <a href="https://github.com/Salvitior" target="_blank" rel="noopener noreferrer">Perfil de Salva en GitHub (se abre en una pestaña nueva)</a>
+        </p>
     </footer>
 
 </body>

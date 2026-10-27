@@ -8,6 +8,8 @@
 </head>
 <body>
 
+    <a href="#contenido">Saltar al contenido</a>
+
     <header id="inicio">
         <nav aria-label="Menú principal">
             <ul>
@@ -30,10 +32,10 @@
         </nav>
     </header>
 
-    <main>
+    <main id="contenido">
 
-        <section id="trayectoria">
-            <h2>Trayectoria</h2>
+        <section id="trayectoria" aria-labelledby="trayectoria-titulo">
+            <h2 id="trayectoria-titulo">Trayectoria</h2>
             <p>
                 Estudio <abbr title="Desarrollo de Aplicaciones Multiplataforma">DAM</abbr>
                 y en clase estoy aprendiendo a crear páginas web desde cero con HTML:
@@ -47,8 +49,8 @@
             <p><a href="#inicio">Volver arriba</a></p>
         </section>
 
-        <section id="aficiones">
-            <h2>Aficiones</h2>
+        <section id="aficiones" aria-labelledby="aficiones-titulo">
+            <h2 id="aficiones-titulo">Aficiones</h2>
             <ul>
                 <li>Entreno a equipos de fútbol base.</li>
                 <li>Toco el bombo y el tambor en una agrupación musical de mi localidad.</li>
@@ -57,8 +59,8 @@
             <p><a href="#inicio">Volver arriba</a></p>
         </section>
 
-        <section id="contacto">
-            <h2>Contacto</h2>
+        <section id="contacto" aria-labelledby="contacto-titulo">
+            <h2 id="contacto-titulo">Contacto</h2>
             <p>
                 Si quieres hablar de un proyecto o de una colaboración,
                 <a href="mailto:scrsocelpedra@gmail.com">escríbeme un correo electrónico</a>.
@@ -78,11 +80,13 @@
             </ul>
             <p><a href="#inicio">Volver arriba</a></p>
         </section>
-
     </main>
 
     <footer>
-        <p>&copy; 2026 Salva Carbonell Rosales.</p>
+        <p>
+            &copy; 2026 Salva Carbonell Rosales ·
+            <a href="https://github.com/Salvitior" target="_blank" rel="noopener noreferrer">Perfil de Salva en GitHub (se abre en una pestaña nueva)</a>
+        </p>
     </footer>
 
 </body>
