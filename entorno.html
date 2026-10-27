@@ -1,5 +1,5 @@
-```html
 <!DOCTYPE html>
+<!-- Salva Carbonell Rosales · 27/10/2026 -->
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -8,73 +8,97 @@
 </head>
 <body>
 
-    <h1>Mi entorno de trabajo</h1>
+    <header>
+        <nav aria-label="Menú principal">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="entorno.html" aria-current="page">Mi entorno de trabajo</a></li>
+                <li><a href="sobre-mi.html">Sobre mí</a></li>
+            </ul>
+        </nav>
 
-    <h2>Qué ocurre cuando escribo una URL</h2>
+        <h1>Mi entorno de trabajo</h1>
+    </header>
 
-    <p>
-        Cuando escribo una dirección web en el navegador, este busca el servidor
-        donde está guardada la página. Para encontrarlo, utiliza el sistema DNS,
-        que traduce el nombre del dominio a una dirección IP.
-    </p>
+    <main>
 
-    <p>
-        Después, el navegador se conecta al servidor y le solicita los archivos
-        de la página web mediante HTTP o HTTPS. El servidor responde enviando
-        los archivos necesarios y el navegador interpreta el HTML para mostrar
-        la página en la pantalla.
-    </p>
+        <h2>Qué ocurre cuando escribo una URL</h2>
 
-    <h2>Herramientas que utilizo</h2>
+        <p>
+            Cuando escribo una dirección web en el navegador, este busca el servidor
+            donde está guardada la página. Para encontrarlo, utiliza el sistema DNS,
+            que traduce el nombre del dominio a una dirección IP.
+        </p>
 
-    <ul>
-        <li>
-            <strong>Visual Studio Code:</strong>
-            lo utilizo para escribir y editar el código de mis páginas web.
-        </li>
-        <li>
-            <strong>Live Server:</strong>
-            permite abrir la página en el navegador y ver los cambios al guardar.
-        </li>
-        <li>
-            <strong>Git:</strong>
-            sirve para guardar versiones del proyecto y controlar los cambios.
-        </li>
-        <li>
-            <strong>GitHub:</strong>
-            permite almacenar repositorios en Internet y compartir los proyectos.
-        </li>
-        <li>
-            <strong>Extensiones:</strong>
-            añaden funciones a Visual Studio Code para facilitar el trabajo.
-        </li>
-    </ul>
+        <p>
+            Después, el navegador se conecta al servidor y le solicita los archivos
+            de la página web mediante HTTP o HTTPS. El servidor responde enviando
+            los archivos necesarios y el navegador interpreta el HTML para mostrar
+            la página en la pantalla.
+        </p>
 
-    <h2>Estructura de carpetas de mi portfolio</h2>
+        <h2>Herramientas que utilizo</h2>
 
-    <p>
-        He organizado mi proyecto en una carpeta principal llamada portfolio.
-        Dentro están las dos páginas HTML, el archivo README y una carpeta
-        para guardar imágenes.
-    </p>
+        <ul>
+            <li>
+                <strong>Visual Studio Code:</strong>
+                lo utilizo para escribir y editar el código de mis páginas web.
+            </li>
+            <li>
+                <strong>Live Server:</strong>
+                permite abrir la página en el navegador y ver los cambios al guardar.
+            </li>
+            <li>
+                <strong>Git:</strong>
+                sirve para guardar versiones del proyecto y controlar los cambios.
+            </li>
+            <li>
+                <strong>GitHub:</strong>
+                permite almacenar repositorios en Internet y compartir los proyectos.
+            </li>
+            <li>
+                <strong>Extensiones:</strong>
+                añaden funciones a Visual Studio Code para facilitar el trabajo.
+            </li>
+        </ul>
 
-    <pre>
+        <h2>Estructura de carpetas de mi portfolio</h2>
+
+        <p>
+            He organizado mi proyecto en una carpeta principal llamada portfolio.
+            Dentro están las cuatro páginas HTML, el archivo README, una carpeta
+            para las imágenes (con las capturas de mis proyectos) y otra para
+            documentos descargables.
+        </p>
+
+        <pre>
 portfolio/
 ├── index.html
 ├── entorno.html
+├── sobre-mi.html
+├── proyectos.html
 ├── README.md
+├── docs/
+│   └── presentacion.txt
 └── img/
-    └── .gitkeep
-    </pre>
+    ├── avatar.svg
+    └── proyectos/
+        └── (capturas PNG de mis proyectos)
+        </pre>
 
-    <h2>Qué he aprendido</h2>
+        <h2>Qué he aprendido</h2>
 
-    <p>
-        He aprendido a organizar los archivos de un proyecto web, a crear
-        páginas con HTML y a utilizar herramientas como Visual Studio Code,
-        Live Server, Git y GitHub.
-    </p>
+        <p>
+            He aprendido a organizar los archivos de un proyecto web, a crear
+            páginas con HTML y a utilizar herramientas como Visual Studio Code,
+            Live Server, Git y GitHub.
+        </p>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Salva Carbonell Rosales.</p>
+    </footer>
 
 </body>
 </html>
-```

@@ -1,0 +1,21 @@
+PRESENTACIÓN · SALVA CARBONELL ROSALES
+======================================
+
+Hola, soy Salva. Soy estudiante de Desarrollo de Aplicaciones
+Multiplataforma (DAM) y me interesa mucho la informática, el desarrollo
+web y la creación de proyectos con nuevas tecnologías.
+
+Qué sé hacer
+------------
+- Crear páginas web con HTML y CSS.
+- Programación básica.
+- Usar Git y GitHub.
+- Trabajar con herramientas de inteligencia artificial.
+
+Qué quiero aprender
+-------------------
+1. Mejorar mis conocimientos de programación.
+2. Aprender a desarrollar aplicaciones completas.
+3. Crear proyectos profesionales para mi portfolio.
+
+Gracias por visitar mi portfolio.
