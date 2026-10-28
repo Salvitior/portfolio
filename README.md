@@ -2,24 +2,30 @@
 
 ## Descripción
 
-Este repositorio contiene mi portfolio personal, creado como parte de las actividades del Tema 2 de HTML.
+Primera versión (v1) de mi portfolio personal, creada en el primer trimestre de Lenguajes de Marcas y Sistemas de Gestión de Información. Es un sitio web de 5 páginas en HTML semántico, válido (sin errores en el validador del W3C) y accesible: tiene enlace «Saltar al contenido», menú con la página actual marcada, encabezados jerarquizados, textos alternativos en las imágenes y formulario con etiquetas.
 
-En él presento información sobre mí, mis conocimientos, mis objetivos, las herramientas que utilizo y una galería con capturas de mis proyectos del curso.
+En el segundo trimestre le daré diseño con CSS.
 
-## Contenido
+**Web publicada:** https://salvitior.github.io/portfolio/
 
-- `index.html`: mi ficha personal, con avatar.
-- `entorno.html`: explicación de mi entorno de trabajo y del funcionamiento de una página web.
-- `sobre-mi.html`: mi trayectoria, aficiones y contacto, con índice de anclas.
-- `proyectos.html`: galería de proyectos con capturas y lo aprendido en cada uno.
-- `cv.html`: mi currículum, con tablas de formación y competencias.
-- `contacto.html`: formulario de contacto validado y mapa de mi ciudad.
-- `img/`: imágenes del proyecto (`avatar.svg` y capturas en `img/proyectos/`).
+## Páginas
+
+- `index.html`: presentación, qué busco, qué sé hacer, tres proyectos destacados y qué estoy aprendiendo.
+- `sobre-mi.html`: trayectoria, aficiones y objetivos, con índice de anclas.
+- `proyectos.html`: seis proyectos del trimestre, con captura y lo que aprendí en cada uno.
+- `cv.html`: currículum con tablas de formación y competencias, experiencia e idiomas.
+- `contacto.html`: formulario de contacto validado, correo alternativo, GitHub y mapa de mi ciudad.
+- `entorno.html`: la página de la Actividad 5, enlazada como proyecto desde `proyectos.html`.
+
+## Otros archivos
+
+- `img/`: avatar y capturas de los proyectos (`img/proyectos/`).
 - `docs/presentacion.txt`: mi presentación, descargable desde `sobre-mi.html`.
 
 ## Tecnologías y herramientas
 
 - HTML5 semántico
+- Validador del W3C
 - Visual Studio Code
 - Live Server
 - Git
