@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- Salva Carbonell Rosales · 27/10/2026 -->
+<!-- Salva Carbonell Rosales · Portfolio v1 -->
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -14,7 +14,6 @@
         <nav aria-label="Menú principal">
             <ul>
                 <li><a href="index.html" aria-current="page">Inicio</a></li>
-                <li><a href="entorno.html">Mi entorno de trabajo</a></li>
                 <li><a href="sobre-mi.html">Sobre mí</a></li>
                 <li><a href="proyectos.html">Proyectos</a></li>
                 <li><a href="cv.html">CV</a></li>
@@ -29,11 +28,11 @@
 
     <main id="contenido">
 
-        <section aria-labelledby="sobre-mi-titulo">
-            <h2 id="sobre-mi-titulo">Sobre mí</h2>
+        <section aria-labelledby="quien-titulo">
+            <h2 id="quien-titulo">Quién soy</h2>
 
             <p>
-                Soy estudiante de <strong>Desarrollo de Aplicaciones Multiplataforma (DAM)</strong>
+                Soy estudiante de <strong>Desarrollo de Aplicaciones Multiplataforma (<abbr title="Desarrollo de Aplicaciones Multiplataforma">DAM</abbr>)</strong>
                 y técnico en <strong>Sistemas Microinformáticos y Redes (SMR)</strong>.
                 Me interesa mucho la informática, el desarrollo web y la creación de proyectos
                 utilizando nuevas tecnologías.
@@ -49,12 +48,26 @@
                 Si quieres saber qué hago fuera de clase, lee
                 <a href="sobre-mi.html#aficiones">mis aficiones en la página Sobre mí</a>.
             </p>
+        </section>
+
+        <section aria-labelledby="busco-titulo">
+            <h2 id="busco-titulo">Qué busco</h2>
 
             <p>
-                Actualmente estudio <abbr title="Desarrollo de Aplicaciones Multiplataforma">DAM</abbr>
-                y quiero seguir aprendiendo nuevas tecnologías para mejorar como desarrollador.
-                Mi objetivo es crear proyectos útiles y seguir mejorando cada día.
+                Quiero seguir aprendiendo nuevas tecnologías para mejorar como desarrollador
+                y crear proyectos útiles. Estos son mis tres objetivos ahora mismo:
             </p>
+
+            <ol>
+                <li>Mejorar mis conocimientos de programación.</li>
+                <li>Aprender a desarrollar aplicaciones completas.</li>
+                <li>Crear proyectos profesionales para mi portfolio.</li>
+            </ol>
+
+            <blockquote>
+                "El único modo de hacer un gran trabajo es amar lo que haces."
+                <cite>— Steve Jobs</cite>
+            </blockquote>
         </section>
 
         <section aria-labelledby="saber-titulo">
@@ -70,23 +83,45 @@
             </ul>
         </section>
 
-        <section aria-labelledby="aprender-titulo">
-            <h2 id="aprender-titulo">Qué quiero aprender</h2>
+        <section aria-labelledby="destacados-titulo">
+            <h2 id="destacados-titulo">Proyectos destacados</h2>
 
-            <ol>
-                <li>Mejorar mis conocimientos de programación.</li>
-                <li>Aprender a desarrollar aplicaciones completas.</li>
-                <li>Crear proyectos profesionales para mi portfolio.</li>
-            </ol>
+            <article>
+                <h3>Mi entorno de trabajo</h3>
+                <p>
+                    Explico cómo llega una página web hasta mi navegador y qué herramientas uso
+                    para crear las mías.
+                    <a href="proyectos.html#proyecto-entorno">Ver este proyecto en la página de proyectos</a>.
+                </p>
+            </article>
+
+            <article>
+                <h3>Mi currículum con tablas accesibles</h3>
+                <p>
+                    Mi formación, experiencia y competencias organizadas en tablas que se
+                    entienden leídas por filas.
+                    <a href="proyectos.html#proyecto-cv">Ver este proyecto en la página de proyectos</a>.
+                </p>
+            </article>
+
+            <article>
+                <h3>Formulario de contacto validado</h3>
+                <p>
+                    Un formulario que no se envía si los datos son incorrectos, con todos sus
+                    campos etiquetados.
+                    <a href="proyectos.html#proyecto-contacto">Ver este proyecto en la página de proyectos</a>.
+                </p>
+            </article>
         </section>
 
-        <aside aria-labelledby="cita-titulo">
-            <h2 id="cita-titulo">Una cita que me motiva</h2>
+        <aside aria-labelledby="aprendiendo-titulo">
+            <h2 id="aprendiendo-titulo">Ahora estoy aprendiendo</h2>
 
-            <blockquote>
-                "El único modo de hacer un gran trabajo es amar lo que haces."
-                <cite>— Steve Jobs</cite>
-            </blockquote>
+            <ul>
+                <li>HTML semántico y accesible, en la asignatura de Lenguajes de Marcas.</li>
+                <li>CSS, para dar diseño a este portfolio en el segundo trimestre.</li>
+                <li>Programación de aplicaciones, en el ciclo de DAM.</li>
+            </ul>
         </aside>
     </main>
 
